@@ -6,7 +6,7 @@ void setup() {
 void loop() {
   int LDR = analogRead(A0);
   Serial.println(LDR);
-  if (LDR>50)
+  if (LDR>100)
   {
     digitalWrite(4, HIGH);
   }
